@@ -1,0 +1,10 @@
+@import '../common-imports';
+
+.s-about-me{
+    &__img{
+        img{
+            object-fit: contain;
+            object-position: bottom;
+        }
+    }
+}

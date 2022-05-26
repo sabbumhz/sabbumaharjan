@@ -1,0 +1,30 @@
+@import '../common-imports';
+
+.s-about{
+    &__title{
+        position: relative;
+        display: inline-block;
+        &:after{
+            position: absolute;
+            content: '';
+            width: 8.4rem;
+            height: 4px;
+            background-color: $grapefruit;
+            left: 0;
+            bottom: 0;
+            @include media-breakpoint-up(md) {
+                width: 12.4rem;
+                height: 6px;
+                bottom: -2px;
+            }
+        }
+    }
+    &__btn{
+        opacity: 0.8;
+        @include transition(all 0.5s ease !important);
+        &:hover,
+        &:focus{
+            opacity: 1;
+        }
+    }
+}

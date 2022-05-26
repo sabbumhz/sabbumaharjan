@@ -1,0 +1,19 @@
+.#{$global} {
+    &-header {
+
+    }
+}
+
+
+.social{
+    &-list{
+        opacity: 0.6;
+        color: $pale-gray;
+        @extend .transition-fast;
+        &:hover,
+        &:focus{
+            opacity: 0.9;
+            color: $grapefruit;
+        }
+    }
+}

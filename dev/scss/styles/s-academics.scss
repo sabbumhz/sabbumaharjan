@@ -1,0 +1,18 @@
+@import '../common-imports';
+
+.s-academics{
+    &__logo{
+        width: 80px;
+        height: 80px;
+        object-fit: contain;
+        margin: auto;
+        @include media-breakpoint-up(sm) {
+            width: 100px;
+            height: 100px;
+        }
+        @include media-breakpoint-up(lg) {
+            width: 120px;
+            height: 120px;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.#{$global} {
+    &-app {
+        min-height: 100vh;
+    }
+    &-wrap {
+        flex: 1 0 auto;
+    }
+}
+
+.s-section{
+    padding: 160px 0;
+    @include media-breakpoint-up(md) {
+        padding: 100px 0;
+    }
+    &__svg{
+        opacity: 0.5;
+        svg{
+            width: 60vw;
+            height: auto;
+            max-height: 60vh;
+            fill: $grapefruit;
+            @include media-breakpoint-up(md) {
+                width: 50vw;
+            }
+            @include media-breakpoint-up(lg) {
+                width: 60vw;
+            }
+            @include media-breakpoint-up(xl) {
+                height: auto;
+                width: 50vw;
+            }
+            @include media-breakpoint-up(1500px) {
+                max-height: 70vh;
+                width: 70vw;
+            }
+        }
+    }
+}
+
+.fp-watermark{
+    display: none !important;
+}

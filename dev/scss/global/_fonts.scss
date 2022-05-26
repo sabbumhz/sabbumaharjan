@@ -1,0 +1,36 @@
+@font-face {
+	font-family: 'Copernicus Book';
+	src: url('#{$font-path}/Copernicus-Book.eot');
+	src: url('#{$font-path}/Copernicus-Book.eot?#iefix') format('embedded-opentype'),
+		url('#{$font-path}/Copernicus-Book.woff2') format('woff2'),
+		url('#{$font-path}/Copernicus-Book.woff') format('woff'),
+		url('#{$font-path}/Copernicus-Book.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Copernicus Book';
+	src: url('#{$font-path}/Copernicus-BookItalic.eot');
+	src: url('#{$font-path}/Copernicus-BookItalic.eot?#iefix') format('embedded-opentype'),
+		url('#{$font-path}/Copernicus-BookItalic.woff2') format('woff2'),
+		url('#{$font-path}/Copernicus-BookItalic.woff') format('woff'),
+		url('#{$font-path}/Copernicus-BookItalic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Inter';
+	src: url('#{$font-path}/Inter-Regular.eot');
+	src: url('#{$font-path}/Inter-Regular.eot?#iefix') format('embedded-opentype'),
+		url('#{$font-path}/Inter-Regular.woff2') format('woff2'),
+		url('#{$font-path}/Inter-Regular.woff') format('woff'),
+		url('#{$font-path}/Inter-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
