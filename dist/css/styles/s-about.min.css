@@ -1,0 +1,2 @@
+.s-about__title{position:relative;display:inline-block}.s-about__title:after{position:absolute;content:'';width:8.4rem;height:4px;background-color:#e0bcbc;left:0;bottom:0}@media (min-width:768px){.s-about__title:after{width:12.4rem;height:6px;bottom:-2px}}.s-about__btn{opacity:.8;-webkit-transition:all .5s ease!important;transition:all .5s ease!important}.s-about__btn:focus,.s-about__btn:hover{opacity:1}
+/*# sourceMappingURL=maps/s-about.min.css.map */

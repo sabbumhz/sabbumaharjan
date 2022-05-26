@@ -1,0 +1,2 @@
+.s-intro__links a{position:relative;opacity:.6}.s-intro__links a::after{position:absolute;width:0;height:1px;background-color:#e0bcbc;bottom:0;left:0;content:'';-webkit-transition:all .5s ease!important;transition:all .5s ease!important}@media (min-width:768px){.s-intro__links a::after{height:2px}}.s-intro__links a:focus,.s-intro__links a:hover{opacity:.9}.s-intro__links a:focus::after,.s-intro__links a:hover::after{width:100%}
+/*# sourceMappingURL=maps/s-intro.min.css.map */
