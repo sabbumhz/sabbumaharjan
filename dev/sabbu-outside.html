@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        @@include('includes/head.html',{'pageTitle':'Sabbu | Outside'})
+    </head>
+    <body class="bg-light-sky">
+        <div class="theme-app d-flex flex-column">
+            <div class="theme-wrap position-relative">
+                @@include('includes/header-dark.html')
+                <main class="s-main">
+                    <div class="container">
+                        @@include('includes/modules/cards/work-page-outside.html')
+                    </div>
+
+                    @@include('includes/modules/banner/footer-banner.html',{
+                        'img1':'images/meet.png',
+                        'img2':'images/clear.png',
+                        'img3':'images/ifapp.png',
+                        'img4':'images/firstmode.png',
+                        'img5':'images/zocdoc.png',
+                        'img6':'images/nui.png'
+                    })
+                </main>
+            </div>
+            @@include('includes/scripts.html')
+        </div>
+    </body>
+</html>
+

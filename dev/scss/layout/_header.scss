@@ -1,6 +1,6 @@
 .#{$global} {
     &-header {
-
+        z-index: 99;
     }
 }
 
@@ -9,11 +9,19 @@
     &-list{
         opacity: 0.6;
         color: $pale-gray;
+        .theme-header--dark &{
+            color: $classic-blue;
+            opacity: 0.8;
+        }
         @extend .transition-fast;
         &:hover,
         &:focus{
             opacity: 0.9;
             color: $grapefruit;
+            .theme-header--dark &{
+                color: $primary;
+                opacity: 1;
+            }
         }
     }
 }

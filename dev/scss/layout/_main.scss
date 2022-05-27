@@ -8,12 +8,12 @@
 }
 
 .s-section{
-    padding: 160px 0;
+    padding: 160px 0 80px 0;
     @include media-breakpoint-up(md) {
         padding: 100px 0;
     }
     &__svg{
-        opacity: 0.5;
+        opacity: 0.75;
         svg{
             width: 60vw;
             height: auto;
@@ -39,4 +39,67 @@
 
 .fp-watermark{
     display: none !important;
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+    background-color: $grapefruit;
+    opacity: 0.7;
+}
+
+.banner{
+    img{
+        object-position: top;
+    }
+}
+
+.site{
+    &-title{
+        position: relative;
+        display: inline-block;
+        &::after{
+            position: absolute;
+            width: 0;
+            height: 1px;
+            background-color: $pale-gray;
+            bottom: 0;
+            left: 0;
+            content: '';
+            @include transition(all 0.5s ease !important);
+            @include media-breakpoint-up(md) {
+                height: 2px;
+            }
+        }
+        &:hover,
+        &:focus{
+            &::after{
+                width: 100%;
+            }
+        }
+    }
+}
+
+.hobbies{
+    &-button{
+        opacity: 0.5;
+        border-radius: 30px;
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+    &-page{
+        overflow: hidden;
+        .hobbies-slide{
+            width: 80%;
+            padding: 0 10px;
+            @include media-breakpoint-up(sm) {
+                width: 50%;
+            }
+            @include media-breakpoint-up(md) {
+                width: 33.33%;
+            }
+            @include media-breakpoint-up(lg) {
+                width: 25%;
+            }
+        }
+    }
 }

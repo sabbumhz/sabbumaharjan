@@ -1,6 +1,28 @@
 @import '../common-imports';
 
 .s-intro{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    &::after{
+        position: absolute;
+        content: '';
+        height: 100%;
+        top: 0;
+        width: 70%;
+        background: rgb(15,35,76);
+        background: linear-gradient(90deg, rgba(15,35,76,1) 0%, rgba(15,35,76,0.8799894957983193) 0%, rgba(15,35,76,0) 100%);
+    }
+    .container{
+        position: relative;
+        z-index: 2;
+    }
+    &__bg{
+        img{
+            object-position: 70%;
+        }
+    }
     &__links{
         a{
             position: relative;

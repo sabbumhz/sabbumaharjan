@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        @@include('includes/head.html',{'pageTitle':'Sabbu | Andmine'})
+    </head>
+    <body class="bg-light-sky">
+        <div class="theme-app d-flex flex-column">
+            <div class="theme-wrap position-relative">
+                @@include('includes/header-dark.html')
+                <main class="s-main">
+                    <div class="container">
+                        @@include('includes/modules/cards/work-page-andmine.html')
+                    </div>
+                    @@include('includes/modules/banner/footer-banner.html',{
+                        'img1':'images/alma.png',
+                        'img2':'images/wevo.png',
+                        'img3':'images/xavier.png',
+                        'img4':'images/fof.png',
+                        'img5':'images/lumi.png',
+                        'img6':'images/lounges.png'
+                    })
+                </main>
+            </div>
+            @@include('includes/scripts.html')
+        </div>
+    </body>
+</html>
+

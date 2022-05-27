@@ -1,1 +1,1 @@
-new fullpage("#fullpage",{licenseKey:"null"});
+new fullpage("#fullpage",{licenseKey:"null",navigation:!0,slidesNavigation:!0,controlArrows:!1,anchors:["firstSection","secondSection","thirdSection","fourthSection","fifthSection"],navigationTooltips:["Intro","Hello!","About Me","Academic Background","Work Experience","Recent Works"]});

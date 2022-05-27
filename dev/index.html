@@ -4,15 +4,24 @@
         @@include('includes/head.html',{'pageTitle':'Sabbu | FED'})
     </head>
     <body>
-        <div class="theme-app d-flex flex-column bg-black">
+        <div class="theme-app d-flex flex-column bg-navy-blue">
             <div class="theme-wrap position-relative">
                 @@include('includes/header.html')
                 <main class="s-main d-flex align-items-center w-100">
                     <div id="fullpage" class="s-main__slider">
-                        <div class="section">@@include('includes/modules/section/s-intro.html')</div>
+                        <div class="section">
+                        <div class="s-intro__bg position-absolute w-100 h-100">
+                            <img class="w-100 h-100 object-fit" src="images/sab.jpg">
+                        </div>
+                        @@include('includes/modules/section/s-intro.html')</div>
                         <div class="section">@@include('includes/modules/section/s-about.html')</div>
                         <div class="section">@@include('includes/modules/section/s-about-me.html')</div>
                         <div class="section">@@include('includes/modules/section/s-academics.html')</div>
+                        <div class="section">@@include('includes/modules/section/s-works.html')</div>
+                        <div class="section">@@include('includes/modules/section/s-recent-works.html')</div>
+                    </div>
+                    <div class="hobbies position-fixed start-0 bottom-0 p-10">
+                        <a href="/hobbies.html" class="hobbies-button px-4 py-2 border border-pale-gray caption">Hobbies</a>
                     </div>
                 </main>
             </div>

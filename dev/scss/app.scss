@@ -59,11 +59,12 @@
 // 9. Modules
 @import 'modules/buttons';
 
-
 // 10. Global Components to use
 @import "layout/header";
 @import "layout/footer";
 @import "layout/main";
+@import 'layout/flickity';
 
 
 // 11. Cards
+@import "cards/work-page";
