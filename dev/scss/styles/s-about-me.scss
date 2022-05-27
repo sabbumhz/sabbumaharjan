@@ -7,4 +7,8 @@
             object-position: bottom;
         }
     }
+    .container{
+        position: relative;
+        z-index: 2;
+    }
 }

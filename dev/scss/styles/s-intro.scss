@@ -10,9 +10,12 @@
         content: '';
         height: 100%;
         top: 0;
-        width: 70%;
+        width: 100%;
         background: rgb(15,35,76);
         background: linear-gradient(90deg, rgba(15,35,76,1) 0%, rgba(15,35,76,0.8799894957983193) 0%, rgba(15,35,76,0) 100%);
+        @include media-breakpoint-up(md) {
+            width: 70%;
+        }
     }
     .container{
         position: relative;
@@ -26,7 +29,7 @@
     &__links{
         a{
             position: relative;
-            opacity: 0.6;
+            opacity: 0.8;
             &::after{
                 position: absolute;
                 width: 0;
@@ -42,7 +45,7 @@
             }
             &:hover,
             &:focus{
-                opacity: 0.9;
+                opacity: 1;
                &::after{
                  width: 100%;
                }
