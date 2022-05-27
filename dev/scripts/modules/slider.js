@@ -4,6 +4,6 @@ new fullpage('#fullpage', {
     navigation: true,
     slidesNavigation: true,
     controlArrows: false,
-    anchors: ['Intro', 'Hello!', 'About-Me', 'Academic-Background', 'Work-Experience','Recent-Works'],
-    navigationTooltips:['Intro', 'Hello!', 'About Me','Academic Background', 'Work Experience','Recent Works'],
+    anchors: ['Intro', 'Hello!', 'About-Me', 'Academic-Background', 'Work-Experience','Recent-Works','Academic-Projects'],
+    navigationTooltips:['Intro', 'Hello!', 'About Me','Academic Background', 'Work Experience','Recent Works', 'Academic Projects'],
 });
