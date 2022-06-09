@@ -1,0 +1,18 @@
+.collapse{
+    display: none;
+    &.show{
+        display: block;
+    }
+}
+
+.accordion{
+    background-color: transparent;
+    &-item,
+    &-button{
+        background-color: transparent;
+    }
+    .accordion-button:not(.collapsed){
+        background-color: transparent;
+        box-shadow: none;
+    }
+}

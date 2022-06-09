@@ -14,18 +14,20 @@
 // 3. Layout & components
 @import '../../node_modules/bootstrap/scss/root';
 @import '../../node_modules/bootstrap/scss/reboot';
-@import '../../node_modules/bootstrap/scss/type';
-@import '../../node_modules/bootstrap/scss/images';
+// @import '../../node_modules/bootstrap/scss/type';
+// @import '../../node_modules/bootstrap/scss/images';
 @import '../../node_modules/bootstrap/scss/containers';
 @import '../../node_modules/bootstrap/scss/grid';
-@import '../../node_modules/bootstrap/scss/navbar';
-@import '../../node_modules/bootstrap/scss/nav';
+@import '../../node_modules/bootstrap/scss/offcanvas';
+// @import '../../node_modules/bootstrap/scss/navbar';
+// @import '../../node_modules/bootstrap/scss/navbar';
+// @import '../../node_modules/bootstrap/scss/nav';
 // @import '../../node_modules/bootstrap/scss/forms';
 // @import '../../node_modules/bootstrap/scss/dropdown';
-@import '../../node_modules/bootstrap/scss/buttons';
+// @import '../../node_modules/bootstrap/scss/buttons';
 // @import '../../node_modules/bootstrap/scss/button-group';
 // @import '../../node_modules/bootstrap/scss/modal';
-@import '../../node_modules/fullpage.js/dist/fullpage';
+@import '../../node_modules/bootstrap/scss/accordion';
 @import '../../node_modules/aos/dist/aos.css';
 
 
@@ -59,6 +61,8 @@
 
 // 9. Modules
 @import 'modules/buttons';
+// @import 'modules/tabpanel';
+@import "modules/accordion";
 
 // 10. Global Components to use
 @import "layout/header";

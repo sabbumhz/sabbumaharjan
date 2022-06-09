@@ -43,8 +43,8 @@ h1,h2,h3,h4,h5,h6,
 }
 
 h1,.h1,.heading-lg{
-    font-size: 36px;
-    line-height: 42px;
+    font-size: 34px;
+    line-height: 40px;
     @include media-breakpoint-up(md) {
         font-size: 50px;
         line-height: 52px;
@@ -56,8 +56,8 @@ h1,.h1,.heading-lg{
 }
 
 h2,.h2,.heading{
-    font-size: 34px;
-    line-height: 38px;
+    font-size: 30px;
+    line-height: 36px;
     @include media-breakpoint-up(md) {
         font-size: 44px;
         line-height: 48px;
@@ -65,8 +65,8 @@ h2,.h2,.heading{
 }
 
 h3,.h3,.heading-sm{
-    font-size: 28px;
-    line-height: 32px;
+    font-size: 24px;
+    line-height: 30px;
     @include media-breakpoint-up(md) {
         font-size: 34px;
         line-height: 40px;

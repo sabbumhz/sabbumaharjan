@@ -1,2 +1,2 @@
-.s-about-me__img img{-o-object-fit:contain;object-fit:contain;-o-object-position:bottom;object-position:bottom}.s-about-me .container{position:relative;z-index:2}
+.s-about-me{min-height:560px}@media (min-width:768px){.s-about-me{min-height:540px}}@media (min-width:992px){.s-about-me{min-height:720px}}.s-about-me__img img{-o-object-fit:contain;object-fit:contain;-o-object-position:bottom;object-position:bottom}.s-about-me .container{position:relative;z-index:2}
 /*# sourceMappingURL=maps/s-about-me.min.css.map */

@@ -1,0 +1,32 @@
+@import '../common-imports';
+
+.s-skills{
+    &__img{
+        max-width: 100px;
+        height: 50px;
+        object-fit: contain;
+        margin: auto;
+        @include media-breakpoint-up(sm) {
+            max-width: 120px;
+            height: 60px;
+        }
+        @include media-breakpoint-up(md) {
+            max-width: 180px;
+            height: 80px;
+        }
+        @include media-breakpoint-up(lg) {
+            max-width: 220px;
+            height: 100px;
+        }
+        @include media-breakpoint-up(xl) {
+            max-width: 250px;
+            height: 120px;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+            object-position: center;
+        }
+    }
+}

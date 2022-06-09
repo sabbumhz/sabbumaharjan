@@ -3,7 +3,21 @@
         z-index: 99;
     }
 }
+.offcanvas-header,
+.menu-icon{
+    a{
+        cursor: pointer;
+    }
+}
 
+.menu-list{
+    a{
+        transition: all 0.3s ease;
+        &:hover{
+            color: $navy-blue;
+        }
+    }
+}
 
 .social{
     &-list{

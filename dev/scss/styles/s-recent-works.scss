@@ -1,6 +1,7 @@
 @import '../common-imports';
 
 .s-recent{
+    min-height: 100vh;
     &__work{
         &-info{
             text-align: center;

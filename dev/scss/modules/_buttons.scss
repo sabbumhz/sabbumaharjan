@@ -71,16 +71,16 @@
         }
     }
     &--secondary{
-        border-color: $primary;
-        color: $primary;
+        border-color: $grapefruit;
+        color: $grapefruit;
         &:hover{
-            background: $primary;
-            border-color: $primary;
+            background: $grapefruit;
+            border-color: $grapefruit;
             color: $white;
         }
         &:focus{
-            background: $primary;
-            border-color: $primary;
+            background: $grapefruit;
+            border-color: $grapefruit;
             color: $white;
         }
     }
@@ -100,9 +100,10 @@
         }
     }
     &--white{
-        background: $white;
-        border-color: $white;
+        background: $gray-200;
+        border-color: $gray-200;
         color: $primary;
+        border-radius: 10px;
         &:focus,
         &:hover{
             background: $light-sky;

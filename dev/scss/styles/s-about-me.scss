@@ -1,6 +1,13 @@
 @import '../common-imports';
 
 .s-about-me{
+    min-height: 560px;
+    @include media-breakpoint-up(md) {
+        min-height: 540px;
+    }
+    @include media-breakpoint-up(lg) {
+        min-height: 720px;
+    }
     &__img{
         img{
             object-fit: contain;

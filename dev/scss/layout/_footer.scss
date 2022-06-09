@@ -1,5 +1,9 @@
-.#{$global} {
-    &-footer {
-        padding: rem(30px 0);
-    }
+.footer__menu{
+	a{
+		opacity: 0.8;
+		&:hover{
+			color: $grapefruit;
+			opacity: 1;
+		}
+	}
 }
