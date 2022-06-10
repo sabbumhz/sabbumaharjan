@@ -106,3 +106,14 @@ input:-webkit-autofill:active {
 // .s-main{
 //     height: 100vh;
 // }
+
+.skills{
+    .image{
+        text-align: center;
+    }
+    svg{
+        height: 48px;
+        width: 50px;
+        fill: $grapefruit;
+    }
+}
